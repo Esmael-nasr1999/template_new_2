@@ -1,0 +1,47 @@
+/*statis section*/
+.statis{
+    position: relative;
+    background-image: url(../images/staties/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 470px;
+}
+.statis-item{
+    height: 50%;
+    text-align: center;
+}
+.statis-item .statis-title{
+    color: #fff;
+    font-size: 2.3rem;
+    padding-top: 90px;
+}
+.statis-item .statis-span{
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+.statis-time{
+    height: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+.statis-number{
+    width: 20%;
+    float: left;
+}
+.statis-number.mg{
+    margin-right: 5%;
+}
+.statis-number .number{
+    font-size: 3.2em;
+    color: #fff;
+    font-weight: 700;
+}
+.statis-number .desc{
+    color: #f8f9fa;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+}

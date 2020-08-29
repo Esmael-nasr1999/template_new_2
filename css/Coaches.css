@@ -1,0 +1,32 @@
+/* coaches section */
+.Coaches-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.item-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+.item-desc{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #727377;
+}
+.photo-coaches{
+    overflow: hidden;
+}
+.photo{
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.photo img{
+    width: 100%;
+}
+.photo.mg{
+    margin: 0 5%;
+}
+.photo .he{
+    height: 215px;
+}
+

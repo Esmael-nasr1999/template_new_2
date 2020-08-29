@@ -1,0 +1,80 @@
+/*servies section*/
+
+.servies-content{
+    overflow: hidden;
+}
+.servies-item{
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+.servies-item .servies-title{
+    font-size: 40px;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+.servies-item .servies-desc1 {
+    color: #999;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.servies-desc2{
+    color: #999;
+    line-height: 1.9;
+    font-size: 15px;
+}
+.servies-icon{
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+.item-icon{
+    width: 45%;
+    height: 200px;
+    float: left;
+    margin-bottom: 20px;
+    padding: 10px 20px 20px 70px;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+    background-color: #fff;
+    transition: color,background 0.5s;
+}
+.item-icon.mg{
+    margin: 0 5%;
+}
+.item-icon.bg i {
+    color: #fff;
+}
+.item-icon.bg{
+    background-color: rgb(0, 17, 255);
+}
+.item-icon.bg .servies-icon-desc{
+    color: #fff;
+}
+.item-icon i{
+    position: absolute;
+    left: 17px;
+    top: 30px;
+    color: red;
+}
+.item-icon .servies-icon-title{
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #212529;
+}
+.item-icon .servies-icon-desc{
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #999;
+    letter-spacing: 1px;
+}
+.item-icon:hover{
+    background-color: red;
+}
+.item-icon:hover .servies-icon-desc ,
+.item-icon:hover i{
+    color: #fff;
+}

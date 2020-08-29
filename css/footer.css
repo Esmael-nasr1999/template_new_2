@@ -1,0 +1,94 @@
+/* footer section*/
+
+.footer-content{
+    overflow: hidden;
+}
+.footer-item{
+    overflow: hidden;
+    float: left;
+    width: 50%;
+}
+.item-name{
+    float: left;
+    width: 45%;
+    height: 140px;
+    position: relative;
+    padding: 5px 10px 20px 50px;
+}
+.item-name.mg{
+    margin: 0 5%;
+}
+.item-name.pb{
+    margin-bottom: 10px;
+}
+.item-name i{
+    position: absolute;
+    left: 15px;
+    color: #6195ff;
+    top: 5px;
+}
+.item-name:hover .item-title,
+.item-name:hover .item-desc{
+    color: #fff;
+}
+.item-name .item-title{
+    color: #212529;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    padding: 10px;
+    transition: color 0.5s;
+}
+.item-name .item-desc{
+    color: #727377;
+    font-size: 15px;
+    transition: color 0.5s;
+}
+
+
+.foter{
+    background-color: #1c1d21;
+    text-align: center;
+    padding: 60px 0;
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.foter .img{
+    width: 50%;
+    margin: auto;
+    
+}
+.foter .img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.foter-links{
+    list-style: none;
+    margin: 20px 0;
+}
+.foter-links li{
+    display: inline-block;
+}
+.foter-links li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: #6195ff;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.foter-links li a i{
+    line-height: 50px;
+}
+.foter .copy-light{
+    position: absolute;
+    right: 10%;
+    bottom: 10px;
+    color: #999;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+

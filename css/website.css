@@ -1,0 +1,28 @@
+/*website section*/
+
+.website-content{
+    text-align: center;
+    line-height: 1.2;
+}
+.website-content .website-title{
+    font-size: 40px;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.website-content .website-desc{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #999;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    line-height: 1.9;
+    width: 1000px;
+    
+}
+.website-content img{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}

@@ -1,0 +1,50 @@
+/* Testimonials section*/
+.Testimonials{
+    background: url(../img/blog1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header-Testimonials{
+    color: #fff;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.header-Testimonials .Testimonials-title{
+    font-size: 40px;
+    color: #fff;
+}
+.header-Testimonials .Testimonials-desc{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.Testimonials-content{
+    overflow: hidden;
+}
+.Testimonials-item{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.Testimonials-item.mg{
+    margin: 0 5%;
+}
+.Testimonials-item p{
+    font-size: 15px;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    color: #f8f9fa;
+    margin-bottom: 20px;
+}
+.Testimonials-item img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.Testimonials-item .bottom{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.09);
+    padding: 10px;
+}

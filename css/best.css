@@ -1,0 +1,53 @@
+/*team*/
+.best{
+    overflow: hidden;
+}
+.best-content{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.img{
+    width: 50%;
+    float: left;
+}
+.img img{
+    width: 100%;
+    height: auto;
+}
+.best-item{
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+.best-item.mg{
+    margin: 0 5%;
+}
+.best-item.mt{
+    margin-top: 40px;
+}
+.best-item img{
+    border-radius: 50%;
+    margin: 15px 0;
+}
+.best-item .name-team{
+    color: #212529;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    transition: color 0.5s;
+}
+.best-item .team-desc{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #343a40;
+    padding-bottom: 10px;
+}
+
+.best-item:hover .name-team{
+    color: #fff;
+}
+.best-item:hover .team-desc{
+    color: #fff;
+}
